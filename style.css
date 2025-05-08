@@ -11,7 +11,7 @@
     padding: 15px 15px;
     background-color: #2FBD59;
     color: #ffffff;
-    height: 100%;
+    min-height: 100%;
 }
 .header{
     position: relative;
@@ -37,7 +37,7 @@ ul{
     text-align: center;
     color: #ffffff;
 }
-li{
+ul li{
     margin-bottom: 10px;
     list-style: none;
 }
@@ -53,4 +53,63 @@ a{
 }
 .wrapper.home{
     background-color: #1e1e1e;
+}
+
+/* form header */
+
+form {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+form input[type='text'] {
+    display: inline-block;
+    width: 20px;
+}
+
+form input[type='submit'] {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 45px;
+}
+
+/* Play list */
+
+ol.list {
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 7px;
+}
+ol li a {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* pagination */
+
+.pagination {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.pagination .prev {
+    position: absolute;
+    left: 0;
+}
+
+.pagination .next {
+    position: absolute;
+    right: 0;
 }
